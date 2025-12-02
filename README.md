@@ -5,7 +5,6 @@ The agent learns how to land a spacecraft safely using reinforcement learning.
 The project is fully implemented in Python, inside a and trains a neural network to approximate the optimal Q-function.
 
 ##Project Overview
----
 The goal of the agent is to land the lunar module between the flags with minimal fuel usage and without crashing.
 
 ##Features
