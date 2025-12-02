@@ -4,19 +4,19 @@ This project implements a Deep Q-Network (DQN) to solve the LunarLander-v2 envir
 The agent learns how to land a spacecraft safely using reinforcement learning.
 The project is fully implemented in Python, inside a and trains a neural network to approximate the optimal Q-function.
 ---
-##Project Overview
+## Project Overview
 The goal of the agent is to land the lunar module between the flags with minimal fuel usage and without crashing.
 
-##Features
+## Features
 ---
-+Fully implemented DQN agent
-+Replay memory buffer
-+Target network for stable training
-+Reward tracking and performance visualization
-+Model saving & loading
-+Animated gameplay evaluation
++ Fully implemented DQN agent
++ Replay memory buffer
++ Target network for stable training
++ Reward tracking and performance visualization
++ Model saving & loading
++ Animated gameplay evaluation
 
-##Project Structure
+## Project Structure
 ---
 ```bash
 LunarLanderDQN/
@@ -25,21 +25,21 @@ LunarLanderDQN/
 
 ```
 
-##Requirements
+## Requirements
 ---
-###Install dependencies:
+### Install dependencies:
 ```bash
 pip install gym pygame numpy torch matplotlib
 ```
 
-##How to Run
+## How to Run
 ---
-1.Open the notebook
-2.Run all cells to:
-+Initialize the environment
-+Train the DQN model
-+Evaluate the trained agent
-+Visualize results
+1. Open the notebook
+2. Run all cells to:
++ Initialize the environment
++ Train the DQN model
++ Evaluate the trained agent
++ Visualize results
 If the notebook includes video rendering, you can watch the agent land the module.
 
 | Parameter     | Value            |
@@ -51,19 +51,19 @@ If the notebook includes video rendering, you can watch the agent land the modul
 | Epsilon Decay | 1 → 0.01         |
 | Target Update | every 1000 steps |
 
-##Troubleshooting
+## Troubleshooting
 ---
 My agent doesn’t learn
-+Reduce learning rate
-+Increase replay buffer size
-+Increase neural network size
-+Train for more episodes
++ Reduce learning rate
++ Increase replay buffer size
++ Increase neural network size
++ Train for more episodes
 
-##References
+## References
 ---
-+OpenAI Gym: LunarLander-v2
-+DeepMind DQN Paper (2015)
-+PyTorch Documentation
++ OpenAI Gym: LunarLander-v2
++ DeepMind DQN Paper (2015)
++ PyTorch Documentation
 
 
 
